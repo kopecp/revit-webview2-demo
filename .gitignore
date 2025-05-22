@@ -360,3 +360,4 @@ Thumbs.db
 *.ide
 
 *.cache
+/HELP_FIRST_RUN
