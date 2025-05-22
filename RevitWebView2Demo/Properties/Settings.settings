@@ -3,7 +3,10 @@
   <Profiles />
   <Settings>
     <Setting Name="WEBPATH" Type="System.String" Scope="User">
-      <Value Profile="(Default)">https://revit-webview2-demo.netlify.app/</Value>
+      <Value Profile="(Default)">https://www.google.com/</Value>
+    </Setting>
+    <Setting Name="CUSTOMPATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://www.google.com/</Value>
     </Setting>
   </Settings>
 </SettingsFile>

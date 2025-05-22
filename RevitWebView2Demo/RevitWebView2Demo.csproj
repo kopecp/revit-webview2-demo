@@ -68,32 +68,31 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>C:\Program Files\Autodesk\Revit 2021\AdWindows.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.5.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=9.0.0.5, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.9.0.5\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Build" />
     <Reference Include="Microsoft.Build.Engine" />
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="Microsoft.Web.WebView2.Core, Version=1.0.818.41, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Web.WebView2.1.0.818.41\lib\net45\Microsoft.Web.WebView2.Core.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Microsoft.Web.WebView2.Core, Version=1.0.3240.44, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.WebView2.1.0.3240.44\lib\net462\Microsoft.Web.WebView2.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Web.WebView2.WinForms, Version=1.0.818.41, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Web.WebView2.1.0.818.41\lib\net45\Microsoft.Web.WebView2.WinForms.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="Microsoft.Web.WebView2.WinForms, Version=1.0.3240.44, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.WebView2.1.0.3240.44\lib\net462\Microsoft.Web.WebView2.WinForms.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Web.WebView2.Wpf, Version=1.0.818.41, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Web.WebView2.1.0.818.41\lib\net45\Microsoft.Web.WebView2.Wpf.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Microsoft.Web.WebView2.Wpf, Version=1.0.3240.44, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.WebView2.1.0.3240.44\lib\net462\Microsoft.Web.WebView2.Wpf.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="RevitAPI">
-      <HintPath>C:\Program Files\Autodesk\Revit 2021\RevitAPI.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Program Files\Autodesk\Revit 2024\RevitAPI.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="RevitAPIUI">
-      <HintPath>C:\Program Files\Autodesk\Revit 2021\RevitAPIUI.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Program Files\Autodesk\Revit 2024\RevitAPIUI.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="PresentationCore" />
@@ -102,14 +101,20 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Data.Linq" />
     <Reference Include="System.Drawing" />
-    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.5.0.0\lib\net45\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    <Reference Include="System.IO.Pipelines, Version=9.0.0.5, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Pipelines.9.0.5\lib\net462\System.IO.Pipelines.dll</HintPath>
     </Reference>
-    <Reference Include="System.Text.Encodings.Web, Version=5.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Text.Encodings.Web.5.0.1\lib\net461\System.Text.Encodings.Web.dll</HintPath>
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
     </Reference>
-    <Reference Include="System.Text.Json, Version=5.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Text.Json.5.0.2\lib\net461\System.Text.Json.dll</HintPath>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.1.2\lib\net462\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web, Version=9.0.0.5, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encodings.Web.9.0.5\lib\net462\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json, Version=9.0.0.5, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Json.9.0.5\lib\net462\System.Text.Json.dll</HintPath>
     </Reference>
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xaml" />
@@ -133,6 +138,7 @@
     </Compile>
     <Compile Include="RevitWv2EventHandler.cs" />
     <Compile Include="SelectExternalEventHandler.cs" />
+    <Compile Include="Settings.cs" />
     <Compile Include="ShowWebView2Window.cs" />
     <Compile Include="WebView2EventHandlers.cs" />
     <Compile Include="WebView2Window.xaml.cs">
@@ -234,17 +240,17 @@
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>copy "$(TargetDir)RevitWebView2Demo.addin" "$(AppData)\Autodesk\Revit\Addins\2021" 
-mkdir "$(AppData)\Autodesk\Revit\Addins\2021\RevitWebView2Demo"
-copy "$(TargetDir)RevitWebView2Demo.dll" "$(AppData)\Autodesk\Revit\Addins\2021\RevitWebView2Demo"  
-copy "$(TargetDir)Microsoft.Web.WebView2.Core.dll" "$(AppData)\Autodesk\Revit\Addins\2021\RevitWebView2Demo"  
-copy "$(TargetDir)Microsoft.Web.WebView2.Wpf.dll" "$(AppData)\Autodesk\Revit\Addins\2021\RevitWebView2Demo"</PostBuildEvent>
+    <PostBuildEvent>copy "$(TargetDir)RevitWebView2Demo.addin" "$(AppData)\Autodesk\Revit\Addins\2024" 
+mkdir "$(AppData)\Autodesk\Revit\Addins\2024\RevitWebView2Demo"
+copy "$(TargetDir)RevitWebView2Demo.dll" "$(AppData)\Autodesk\Revit\Addins\2024\RevitWebView2Demo"  
+copy "$(TargetDir)Microsoft.Web.WebView2.Core.dll" "$(AppData)\Autodesk\Revit\Addins\2024\RevitWebView2Demo"  
+copy "$(TargetDir)Microsoft.Web.WebView2.Wpf.dll" "$(AppData)\Autodesk\Revit\Addins\2024\RevitWebView2Demo"</PostBuildEvent>
   </PropertyGroup>
-  <Import Project="..\packages\Microsoft.Web.WebView2.1.0.818.41\build\Microsoft.Web.WebView2.targets" Condition="Exists('..\packages\Microsoft.Web.WebView2.1.0.818.41\build\Microsoft.Web.WebView2.targets')" />
+  <Import Project="..\packages\Microsoft.Web.WebView2.1.0.3240.44\build\Microsoft.Web.WebView2.targets" Condition="Exists('..\packages\Microsoft.Web.WebView2.1.0.3240.44\build\Microsoft.Web.WebView2.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\Microsoft.Web.WebView2.1.0.818.41\build\Microsoft.Web.WebView2.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Web.WebView2.1.0.818.41\build\Microsoft.Web.WebView2.targets'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.Web.WebView2.1.0.3240.44\build\Microsoft.Web.WebView2.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Web.WebView2.1.0.3240.44\build\Microsoft.Web.WebView2.targets'))" />
   </Target>
 </Project>

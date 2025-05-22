@@ -32,6 +32,7 @@ namespace RevitWebView2Demo
                     webView =
                     {
                         Source = new Uri(Settings.Default.WEBPATH)
+                        //Source = new Uri(Settings.Default.CUSTOMPATH)
                     }
                 };
                 return win;
