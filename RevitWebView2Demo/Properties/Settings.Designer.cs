@@ -25,25 +25,13 @@ namespace RevitWebView2Demo.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("https://www.google.com/")]
+        [global::System.Configuration.DefaultSettingValueAttribute(" http://localhost:8080/")]
         public string WEBPATH {
             get {
                 return ((string)(this["WEBPATH"]));
             }
             set {
                 this["WEBPATH"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("https://www.google.com/")]
-        public string CUSTOMPATH {
-            get {
-                return ((string)(this["CUSTOMPATH"]));
-            }
-            set {
-                this["CUSTOMPATH"] = value;
             }
         }
     }
